@@ -1,3 +1,4 @@
+# local variable in for loop
 def demo():
     for i in range(5):
         x=i*10
@@ -5,6 +6,7 @@ def demo():
 demo()
 # create the code with local variable inside the for loop and also use the condition while loop
 for i in range(3):
+    j=0
     while j<2:
         print("f:",i ,"j:",j)
         j+=1
