@@ -19,7 +19,8 @@ def add_task(tasks):
 def delete_task(tasks):
     view_task(tasks)
     try:
-           if 1<=task_num<=len(tasks):
+        task_num=int(input("enter the task number you want to delete!!!"))
+            if 1<=task_num<=len(tasks):
                 removed_task=tasks.pop(task_num-1)
                 print(f"task '{removed_task}' deleted successfully!!!")
             else:
