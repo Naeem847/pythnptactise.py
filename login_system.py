@@ -14,6 +14,5 @@ class LoginSystem:
             print("Login successful")
         except Exception as e:
             print("Error:",e)
-
 login = LoginSystem()
 login.login()

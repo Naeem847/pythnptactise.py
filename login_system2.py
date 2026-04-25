@@ -22,9 +22,9 @@ class LoginSystem:
     def menu(self):
 
 
-        while True:
+     while True:
 
-            print("\n1. sign_up\n2. log_in,$\n3. exit")
+            print("\n1. sign_up\n2. log_in,\n3. exit")
             choice=int(input("enter your coice:"))
 
             if choice==1:
