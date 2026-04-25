@@ -18,9 +18,10 @@ class cat(Animal):
         super().__init__()
         self.name = "cat"
         self.eat = "fish"
-        def show(self):
              print(f"name: {self.name}, eats: {self.eat}")
 
+    def show(self):
+            print(f"name: {self.name}, eats: {self.eat}")
 a=Animal()
 b=dog()
 c=cat()
