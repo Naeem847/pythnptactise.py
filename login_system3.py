@@ -1,3 +1,4 @@
+import time
 class login_system:
       def __init__(self):
         self.users={}
@@ -24,7 +25,7 @@ class login_system:
             attempts-=1
             print(f" Wrong credentials. Attempts left: {attempts}")
         print("account locked too many failed attempts!!!")
-
+        time.sleep(60)
       def menu(self):
             while True:
              print("\n1.signup \n2.login\n3.exit") 
