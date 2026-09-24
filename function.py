@@ -45,5 +45,12 @@ def full_name(f_name="joe",l_name="willson"):
     print(f"full_name:{f_name},{l_name}")
 full_name() # use default value
 full_name("jackson") #override the f_name
+# country examples
+def introduce(name="Naeem", country="Pakistan"):
+    print(f"My name is {name}")
+    print(f"I am from {country}")
 
 
+introduce()
+introduce("Ali")
+introduce("Ali", "Canada")
