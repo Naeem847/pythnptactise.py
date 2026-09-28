@@ -8,7 +8,9 @@ def add(num1,num2):
     print("addition of two num is:",result)
     
 result=add(3,4)
+
 print("result",result) 
+
 # default argument
 def greet(name="john"):
     print(f"hello {name}")
