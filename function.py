@@ -14,6 +14,7 @@ print("result",result)
 # default argument
 def greet(name="john"):
     print(f"hello {name}")
+    
 greet() 
 greet("alice")
 # keyword argument in python:
