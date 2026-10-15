@@ -48,9 +48,13 @@ class BankAccount:
 
 
 # 7. Create an object
+
+account = BankAccount("Naeem", 500)
+
 account = BankAccount("Naeem", 500)
 
 # 8. Call methods
+
 account.check_balance()
 account.deposit(1000)
 account.withdraw(300)
