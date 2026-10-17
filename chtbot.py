@@ -155,6 +155,7 @@ class BankAccount:
         print("\n----- TRANSACTION HISTORY -----")
 
         if not self.transactions:
+            
             print("No transactions yet.")
             return
 
