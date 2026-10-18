@@ -215,5 +215,6 @@ account1.change_name("Muhammad Naeem")
 account1.receipt()
 
 # Display transaction history
+
 account1.show_history()
 account2.show_history()
