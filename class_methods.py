@@ -50,6 +50,9 @@ class BankAccount:
 obj = BankAccount("Ali", 5000)
 
 obj.show_balance()
+
 obj.deposit(2000)
+
 obj.withdraw(1500)
+
 obj.show_balance()
