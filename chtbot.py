@@ -3,10 +3,12 @@ from datetime import datetime, date
 
 
 class BankAccount:
+
     # Automatically generate account numbers
     next_account_number = 1001
 
     def __init__(self, name, balance=0):
+        
         if balance < 0:
             raise ValueError("Opening balance cannot be negative.")
 
