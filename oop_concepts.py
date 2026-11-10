@@ -31,3 +31,26 @@ animal=[Dog(),cat()]
 for a in animal:
     a.sound()
 
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+
+class Cat(Animal):
+    def sound(self):
+        print("Cat meows")
+
+
+animals = [Dog(), Cat()]
+
+for animal in animals:
+    animal.sound()
